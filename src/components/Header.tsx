@@ -22,12 +22,7 @@ const Header: React.FunctionComponent<{ name: string }> = ({ name }) => {
         className="header-container">
         <div className="left-aligned">
           <span className="title">{name}</span>
-          <button
-            aria-label="Show About Dialog"
-            title="About This App"
-            onClick={() => dispatch({ type: ActionType.ToggleAboutDialog })}>
-            ?
-          </button>
+  
         </div>
         <div className="right-aligned">
           <IconButton

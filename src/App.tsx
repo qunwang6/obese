@@ -30,7 +30,7 @@ const App: React.FunctionComponent = () => {
         </Suspense>
       </Route>
 
-   
+      <About />
     </div>
   );
 };
