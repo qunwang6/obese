@@ -17,7 +17,7 @@ const App: React.FunctionComponent = () => {
 
   return (
     <div id="second-root">
-      <Header name="BK-운용" />
+      <Header name="BK" />
 
       <Route path="/">
         <Inputs />
