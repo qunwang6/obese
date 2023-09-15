@@ -17,7 +17,7 @@ const App: React.FunctionComponent = () => {
 
   return (
     <div id="second-root">
-      <Header name="Obese" />
+      <Header name="" />
 
       <Route path="/">
         <Inputs />
@@ -30,7 +30,7 @@ const App: React.FunctionComponent = () => {
         </Suspense>
       </Route>
 
-      <About />
+   
     </div>
   );
 };
